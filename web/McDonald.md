@@ -20,11 +20,13 @@ I digged around for a bit reading more about this .DS_Store file and concluded t
 In this search I also came across some parsers for this kind of file, i used [gehaxelt's Python-dsstore](https://github.com/gehaxelt/Python-dsstore).
 
 This was the output:
+
 ![https://i.imgur.com/NToTuLN.png](https://i.imgur.com/NToTuLN.png)
+
 I tried to navigate to 
 >http://35.207.91.38/backup/a
-http://35.207.91.38/backup/b
-http://35.207.91.38/backup/c
+>http://35.207.91.38/backup/b
+>http://35.207.91.38/backup/c
 
 But the access was forbidden.
 My next idea was to try and find other DS_Store files inside these directories and bingo. 
