@@ -36,6 +36,7 @@ Kept digging through the directories' DS_Store files and running them through th
 http://35.207.91.38/backup/b/a/c/.DS_Store
 
 ![enter image description here](https://i.imgur.com/MnQyh9i.png)
+
 Finally, tried to reach:
 >http://35.207.91.38/backup/b/a/c/flag.txt
 
