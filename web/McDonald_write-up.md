@@ -8,7 +8,6 @@ This was the tip:
 > -   Our web admin name's "Mc Donald" and he likes apples and always forgets to throw away his apple cores..
     http://35.207.91.38
 
-Ran a dir-search to get to /robots.txt
 
 /robots.txt had the following:
 
