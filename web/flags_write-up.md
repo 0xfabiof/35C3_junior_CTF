@@ -9,14 +9,9 @@ This was the tip:
 Flag is at /flag
 
 When we land on the page we get to see the PHP code running in the back-end:
-`<?php  
-highlight_file(__FILE__);  
-$lang = $_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? 'ot';  
-$lang = explode(',', $lang)[0];  
-$lang = str_replace('../', '', $lang);  
-$c = file_get_contents("flags/$lang");  
-if (!$c) $c = file_get_contents("flags/ot");  
-echo '<img src="data:image/jpeg;base64,' . base64_encode($c) . '">';`
+
+![alt text](https://i.imgur.com/ryuhe28.png)
+
 
 Looking at this PHP code we see that it's considering our browser language as a variable *lang* and using it to navigate to the respective path to get the country's flag.
 
